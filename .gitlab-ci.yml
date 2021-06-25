@@ -22,5 +22,5 @@ build-code-job:
 test-code-job:
   stage: test
   script:
-    - echo "If the files are built successfully, test some files with one command:"
+    - echo "If the files are built successfully, test"
     - curl
