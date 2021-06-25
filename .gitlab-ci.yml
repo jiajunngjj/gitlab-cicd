@@ -22,4 +22,5 @@ test-code-job:
   stage: test
   script:
     - echo "If the files are built successfully, test"
+    - npm start
     - curl http://localhost:8000
