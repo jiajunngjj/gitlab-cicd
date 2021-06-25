@@ -17,10 +17,9 @@ build-code-job:
   script:
     - echo "npm install"
     - npm install
-    - node ./specs/start.js ./specs/async.spec.js
 
 test-code-job:
   stage: test
   script:
     - echo "If the files are built successfully, test"
-    - curl
+    - curl http://localhost:8000
